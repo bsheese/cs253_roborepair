@@ -50,3 +50,6 @@ a:focus, button:focus, input:focus {
     background: #9b9fff;
     color: rgb(0, 0, 0);
 }
+ul{
+   display: inline;
+}
