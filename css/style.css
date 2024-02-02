@@ -3,8 +3,8 @@
  issue you are trying to address */ 
 
 body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #242424; /* Poor contrast */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Nicer font more in line with company values */
+    color: #242424; /* Fixed Contrast - we can read things now! */
     background-color: #ccc;
 	border: solid 5px;
 	margin: 100px;
@@ -21,11 +21,11 @@ h1 {
 }
 
 a {
-    color: #999; /* Poor link contrast */
+    color: #3d4e68; /* Fixed link contrast to be distinct */
 }
 
 a:hover {
-    color: #ccc; /* Even lower contrast on hover */
+    color: #3f4f86; /* Even lower contrast on hover */
 }
 
 form {
@@ -33,8 +33,8 @@ form {
 }
 
 input[type="submit"] {
-    background-color: lightgrey;
-    color: white;
+    background-color: #774747; /* Changed to ensure good readability on the submit button */
+    color: #ffffff; /* Changed colors to hex colors for consistency */
     border: none;
 }
 
