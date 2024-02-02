@@ -54,5 +54,5 @@ button {
 
 /* Missing focus styles for interactive elements */
 a:focus, button:focus, input:focus {
-    /* No focus styles defined */
+    backgroung-color:yellow
 }
