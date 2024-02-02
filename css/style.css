@@ -42,7 +42,7 @@ input[type="submit"] {
 
 button {
     cursor: pointer;
-    font-size: 0.8em; /* Small font size */
+    font-size: 1.2em; /* Fixed font size */
 }
 
 /* Missing focus styles for interactive elements */
