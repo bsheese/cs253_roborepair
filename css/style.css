@@ -3,8 +3,8 @@
  issue you are trying to address */ 
 
 body {
-    font-family: Arial, sans-serif;
-    color: #999; /* Poor contrast */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #242424; /* Poor contrast */
     background-color: #ccc;
 	border: solid 5px;
 	margin: 100px;
