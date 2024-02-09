@@ -1,10 +1,10 @@
 /* NOTE!!! Add comments at the end of each line of code you add or change,
- indicate why you made the addition/change and/or the specific accessibility
+indicate why you made the addition/change and/or the specific accessibility
  issue you are trying to address */ 
 
 body {
     font-family: Arial, sans-serif;
-    color: #999; /* Poor contrast */
+    color: black; /*fixed text contrast*/
     background-color: #ccc;
 	border: solid 5px;
 	margin: 100px;
@@ -16,16 +16,20 @@ header {
 	color: white;
 	padding: 10px 0;
 }
+
+li a {
+    color: #0AFABA;
+}
 h1 {
-    font-size: 1em; /* Small font size for headings */
+    font-size: 5em; /*Increased text size*/
 }
 
 a {
-    color: #999; /* Poor link contrast */
+    color: blue; /*fixed link contrast*/
 }
 
 a:hover {
-    color: #ccc; /* Even lower contrast on hover */
+    color:orangered; /* Fixed contrast on hover */
 }
 
 form {
@@ -33,17 +37,18 @@ form {
 }
 
 input[type="submit"] {
-    background-color: lightgrey;
+    background-color: red;
     color: white;
     border: none;
 }
 
 button {
     cursor: pointer;
-    font-size: 0.8em; /* Small font size */
+    font-size: 2em; /* fixed font size */
 }
 
 /* Missing focus styles for interactive elements */
-a:focus, button:focus, input:focus {
-    /* No focus styles defined */
+a:focus, button:focus, input:focus { /*Added focus styles*/
+    color:#000;
+    background-color: #eaf988;
 }
