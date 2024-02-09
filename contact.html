@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-	    <img src="images/banner.png" width="400px" alt="RoboCare Banner">
+	    <img src="images/banner.png" width="400px" alt="RoboCare Banner"> <!--Added alt text for image-->
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -24,21 +24,21 @@
     <p>For any questions, please fill out the form below:</p>
 
     <form>
-        Name: <input type="text" name="name"><br>
-        Email: <input type="text" name="email"><br>
-        Message: <textarea name="message"></textarea><br>
-        <input type="submit" value="Send" style="background-color: lightgrey; color: white;">
+        Name: <input type="text" name="name" aria-label="Name"><br> <!--Added aria-label to field-->
+        Email: <input type="text" name="email" aria-label="Email" for="email"><br> <!--Added aria-label to field, and for="email" attribute-->
+        Message: <textarea name="message"></textarea aria-label="Messafe"><br> <!--Added aria-label to field-->
+        <input type="submit" value="Send" > <!--Removed inline styling and applied proper contrast CSS-->
     </form>
 
     <div>
         <h2>Visit Us:</h2>
         <p>RoboCare Inc.</p>
-        <p style="color: #888888;">123 Robot Lane, Tech City</p>
+        <p >123 Robot Lane, Tech City</p> <!--Removed inline styling and applied formatted CSS-->
     </div>
 
-    <button onclick="document.location='index.html'">Back to Homepage</button>
+    <a href='index.html'>Back to Homepage</a> <!--Changed button to linke, since it takes to another page-->
     <footer>
-        <p><img src="images/unscrupulous.png" width="50px">© 2024 Unscrupulous Web Design</p>
+        <p><img src="images/unscrupulous.png" width="50px" alt="Unscrupulous Web Design Logo">© 2024 Unscrupulous Web Design</p> <!--Added alt text for image-->
     </footer>
 </body>
 </html>

@@ -1,6 +1,6 @@
 <!-- NOTE!!! Add comments at the end of each line of code you add or change,
- indicate why you made the addition/change and/or the specific accessibility
- issue you are trying to address --> 
+indicate why you made the addition/change and/or the specific accessibility
+issue you are trying to address --> 
 
 <html>
 <head>
@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-	    <img src="images/banner.png" width="400px">
+	    <img src="images/banner.png" width="400px" alt="Image of RoboRepair banner"> <!--Added alt text-->
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -29,7 +29,7 @@
 	<h5>Our Journey</h5>
 	Founded in 2020 by a group of robotics enthusiasts and engineers, RoboCare started as a small workshop dedicated to the restoration and maintenance of classic robot models. We quickly realized that many robot owners faced challenges in finding parts and technical support for their retired mechanical companions. This inspired us to expand our services, and today, we are proud to be the leading provider of spare parts for retired robots.
 	<h3>What We Offer</h3>
-	<img src="images/needparts.png" width="400px">
+	<img src="images/needparts.png" width="400px" alt="Image of a sad looking robot"> <!--Added alt text-->
 	From gears and circuits to sensors and power units, our extensive catalog includes everything needed to keep your robot in top shape. We source our parts from trusted manufacturers and also specialize in custom-made components, tailored to the unique needs of each robot.
 	<h3>A Community of Robot Enthusiasts</h3>
 	RoboCare is more than just a parts supplier; we are a community. We host workshops, training sessions, and meet-ups for robot enthusiasts to share their passion, knowledge, and stories. Our online forum is a bustling hub where members can seek advice, exchange tips, and connect with fellow robot lovers.
@@ -39,17 +39,17 @@
 	Whether you're looking to repair a cherished family robot, find a rare component for your collection, or simply share your passion for robotics, RoboCare is here for you. Explore our website to learn more about our products and services, and become a part of our growing community.
 			
 			
-        <a href="services.html" style="color: grey;">Our Catalog</a>
+        <a href="services.html" >Our Catalog</a> <!--removed inline styling-->
         <a href="contact.html">Contact</a>
     </div>
 
     <form>
-        <input type="email" name="email">
+        <input type="email" name="email" for="email" placeholder="email@something.com"> <!--Added label for email, and a placeholder-->
         <input type="submit" value="Subscribe">
     </form>
 
     <footer>
-        <p><img src="images/unscrupulous.png" width="50px">© 2024 Unscrupulous Web Design</p>
+        <p><img src="images/unscrupulous.png" width="50px" alt="Unscrupulous Web Design Logo">© 2024 Unscrupulous Web Design</p> <!--Added alt text for the image-->
     </footer>
 </body>
 </html>
